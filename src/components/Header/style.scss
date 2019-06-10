@@ -1,0 +1,9 @@
+@import '../../style.scss';
+
+.navbar {
+  background: map-get($palette, green);
+  a {
+    color: map-get($palette, white) !important;
+  }
+  
+}
